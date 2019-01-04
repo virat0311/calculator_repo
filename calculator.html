@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>calculator using js</title>
+        <script type="text/javascript">
+			var n;
+			function fn1(n)
+			{
+				form.answer.value+=n;
+
+			}
+			function fn2()
+			{
+				form.answer.value=eval(form.answer.value);
+
+			}
+			function fn3()
+			{
+				form.answer.value=" ";
+			}
+        </script>
+    </head>
+
+<body style="background-color: aquamarine;text-align: center;" >
+        <style>
+            
+                ul
+                {
+                    list-style-type: none;
+                    overflow:hidden;
+                    background-color:#333333;
+    
+                
+                }
+                li {float:left;}
+                li a {
+                    display:block;
+                    color:white;
+                    text-align: center;
+                    padding: 10px;
+    
+                }
+                li a:hover{
+                    background-color:#111543;
+                }
+                div{
+                    border: 2px solid black;
+                    background-color: black;
+                    color: white;
+                    margin:20px;
+                    padding:20px;
+                }
+                input{
+                    width:50px;
+                    border: 1px solid white;
+                    border-collapse: collapse;
+                }
+                #text{
+                    width:200px;
+                }
+            
+            
+            
+            </style>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#home">services</a></li>
+                <li><a href="#home">contact</a></li>
+                <li><a href="#home">news</a></li>
+                <li><a href="#welcome.html">about us</a></li>
+                <li style="float: right;"><a href="#home">log out</a></li>
+                
+    
+            </ul>
+           
+            
+            <br>
+<div class="name">
+        
+
+   <form  name="form">
+   
+       <h1 id="ram" style="font-size:30px;color:red;">the page is for doing mathematical operation by using calculator</h1>
+         <h1  style="font-size:30px;color:red;text-align: center;">javascript</h1>
+            <input id="text"type="text"name="answer"placeholder="enter value">
+            <br></br>
+            <input type="button"name="butn9"value="9"onclick="fn1(butn9.value)">
+            <input type="button"name="butn8"value="8"onclick="fn1(butn8.value)">
+            <input type="button"name="butn7"value="7"onclick="fn1(butn7.value)">
+            <br></br>
+            <input type="button"name="butn6"value="6"onclick="fn1(butn6.value)">
+            <input type="button"name="butn5"value="5"onclick="fn1(butn5.value)">
+            <input type="button"name="butn4"value="4"onclick="fn1(butn4.value)">
+            <br></br>
+            <input type="button"name="butn3"value="3"onclick="fn1(butn3.value)">
+            <input type="button"name="butn2"value="2"onclick="fn1(butn2.value)">
+            <input type="button"name="butn1"value="1"onclick="fn1(butn1.value)">
+            <br></br>
+            <input type="button"name="butnp"value="+"onclick="fn1(butnp.value)">
+            <input type="button"name="butn0"value="0"onclick="fn1(butn0.value)">
+            <input type="button"name="butnm"value="-"onclick="fn1(butnm.value)">
+            <br></br>
+            <input type="button"name="butnd"value="/"onclick="fn1(butnd.value)">
+            <input type="button"name="butnmu"value="*"onclick="fn1(butnmu.value)">
+            <input type="button"name="bute"value="="onclick="fn2()">
+            <br></br>
+            <input type="button"name="butne"value="clr"onclick="fn3()">
+            </form>
+     </div>       
+    </body>
+</html>
